@@ -3,6 +3,13 @@
     background-color: #F5FBE6;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body{
+    margin: auto;
+    width: 350px;
 }
 
 h1{
@@ -11,6 +18,7 @@ h1{
 
 h3{
     color: #233E61;
+    margin-left: 10px;
 }
 
 ul{
@@ -28,4 +36,29 @@ a{
 
 .ult{
     color: black;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 20px auto;
+    margin-left: 15px;
+}
+
+#back{
+    background-color: #FE7F2D;
+    color: antiquewhite;
+    border: 1px solid rgba(145, 125, 125, 0.3);
+    margin-left: 350px;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 2px;
 }
