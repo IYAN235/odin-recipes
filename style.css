@@ -1,6 +1,6 @@
 
 *{
-    background-color: #F5FBE6;
+    background-color: #FDF5E6;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-left: auto;
@@ -13,24 +13,37 @@
 }
 
 h1{
-    color: #215e61;
+    color: #E67E22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
 
 h3{
-    color: #233E61;
+    color: #E67E22;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 ul{
-    color: #233D4D;
+    color: #5C4033;
     list-style: numeric;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 a{
-    color: #FE7F2D;
+    color: #E67E22;
     text-decoration: none;
-    border-color: #233D4D;
-    background-color: rgba(176, 59, 59, 0.074);
+    border-color: #5C4033;
+    background-color: rgba(230, 126, 34, 0.1);
     margin-bottom: 50px;
 }
 
@@ -50,15 +63,23 @@ p{
     max-width: 600px;
     line-height: 1.6;
     margin: 20px auto;
-    margin-left: 15px;
+    margin-left: 25px;
+    color: #5C4033;
 }
 
 #back{
-    background-color: #FE7F2D;
+    background-color: #E67E22;
     color: antiquewhite;
-    border: 1px solid rgba(145, 125, 125, 0.3);
-    margin-left: 350px;
-    margin-bottom: 50px;
-    display: inline-block;
+    border: 1px solid rgba(92, 64, 51, 0.3);
     padding: 2px;
+    display: flex;
+    flex: 2;
+    margin-bottom: 20px;
+    width: auto;
+    justify-content: center;
+}
+
+li{
+    border: black;
+    list-style-type: disc;
 }
